@@ -13,8 +13,8 @@ Header.defaultProps ={
   title: 'Task Tracker',
 }
 
-Header.PropTypes = {
-  title: PropTypes.string,
+Header.propTypes = {
+  title: PropTypes.string.isRequired,
 }
 
 export default Header
