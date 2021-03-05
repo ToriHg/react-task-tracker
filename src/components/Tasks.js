@@ -5,10 +5,10 @@ const Tasks = ({tasks,onDelete,onToggle}) => {
       {
         tasks.map((task) => (
           <Task 
-          key={task.id} 
-          task={task} 
-          onDelete={onDelete} 
-          onToggle={onToggle}
+            key={task.id} 
+            task={task} 
+            onDelete={onDelete} 
+            onToggle={onToggle}
           />
         ))
       }
@@ -17,3 +17,17 @@ const Tasks = ({tasks,onDelete,onToggle}) => {
 }
 
 export default Tasks
+
+
+// const Table = () => {
+//   return (
+//     <table>
+//       <thead></thead>
+//       <tbody>
+//         <tr>
+//           <td></td>
+//         </tr>
+//       </tbody>
+//     </table>
+//   )
+// }
